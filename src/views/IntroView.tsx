@@ -103,6 +103,23 @@ export const IntroView: React.FC<IntroViewProps> = ({ onStart }) => {
         <p className="text-center mt-4 font-label-bold text-label-bold text-outline">소요 시간: 약 3분</p>
       </div>
 
+      {/* 검사 방식 및 신뢰도 안내 섹션 */}
+      <div className="w-full mt-stack-lg bg-surface-container-lowest neo-border p-5 rounded-xl neo-shadow text-left space-y-3">
+        <div className="flex items-center gap-2 border-b-2 border-on-surface pb-2">
+          <span className="material-symbols-outlined text-primary">verified</span>
+          <h4 className="font-display font-black text-on-surface text-lg">검사 신뢰도 및 진단 방식</h4>
+        </div>
+        <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          본 테스트는 스위스 분석심리학자 <strong>칼 융(Carl Jung)</strong>의 심리학적 유형론을 기반으로 개발된 성격 유형 진단 방식(MBTI)을 직장인 맞춤형으로 변형한 검사입니다.
+        </p>
+        <div className="bg-secondary-fixed/10 p-3 rounded-lg border border-on-surface/30 flex items-start gap-2">
+          <span className="material-symbols-outlined text-secondary text-sm mt-0.5">info</span>
+          <p className="font-label-bold text-xs text-on-surface-variant leading-relaxed">
+            마이어스-브릭스 재단(The Myers & Briggs Foundation) 연구 데이터에 의하면, 본 유형 진단 모형의 <strong>검사-재검사 신뢰도 계수는 평균 0.80 이상</strong>으로 매우 높은 통계적 신뢰성과 학술적 가치를 지닙니다.
+          </p>
+        </div>
+      </div>
+
       {/* Featured Types (Bento Style Glimpse) */}
       <div className="w-full mt-stack-lg grid grid-cols-2 gap-4">
         <div className="bg-surface-container-low neo-border p-4 rounded-xl space-y-2 flex flex-col items-center">

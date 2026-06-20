@@ -3,19 +3,34 @@ import IntroView from "./views/IntroView";
 import TestView from "./views/TestView";
 import LoadingView from "./views/LoadingView";
 import ResultView from "./views/ResultView";
-import { questions } from "./data/questions";
+import { questions, Question } from "./data/questions";
 import { mbtiResults } from "./data/mbtiResults";
 
 type ViewType = "intro" | "test" | "loading" | "result";
 
 function App() {
   const [view, setView] = useState<ViewType>("intro");
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   // 각 성향별 답변을 순서대로 기록
   const [answers, setAnswers] = useState<('E' | 'I' | 'S' | 'N' | 'T' | 'F' | 'J' | 'P')[]>([]);
 
   // 테스트 시작
   const handleStart = () => {
+    const dimensions: ('EI' | 'SN' | 'TF' | 'JP')[] = ['EI', 'SN', 'TF', 'JP'];
+    const selected: Question[] = [];
+
+    // 각 지표별 10문항 중 3문항 무작위 선택
+    dimensions.forEach((dim) => {
+      const dimQuestions = questions.filter((q) => q.dimension === dim);
+      const shuffledDim = [...dimQuestions].sort(() => Math.random() - 0.5);
+      selected.push(...shuffledDim.slice(0, 3));
+    });
+
+    // 선택된 12문항을 다시 셔플하여 지표 순서도 섞음
+    const finalQuestions = selected.sort(() => Math.random() - 0.5);
+
+    setActiveQuestions(finalQuestions);
     setCurrentQuestionIndex(0);
     setAnswers([]);
     setView("test");
@@ -26,7 +41,7 @@ function App() {
     const nextAnswers = [...answers, type];
     setAnswers(nextAnswers);
 
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < activeQuestions.length - 1) {
       setCurrentQuestionIndex((prev) => prev + 1);
     } else {
       // 마지막 문제 응답 시 로딩 뷰로 전환
@@ -101,7 +116,7 @@ function App() {
         
         {view === "test" && (
           <TestView
-            questions={questions}
+            questions={activeQuestions}
             currentIndex={currentQuestionIndex}
             onAnswer={handleAnswer}
             onPrev={handlePrev}

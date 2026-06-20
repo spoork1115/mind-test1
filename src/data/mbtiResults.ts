@@ -8,7 +8,7 @@ export interface MBTIResult {
   title: string;
   subTitle: string;
   description: string[];
-  image: string; // 'panda' | 'cat' | 'dog' | 'tiger'
+  image: 'panda' | 'cat' | 'dog' | 'tiger' | 'rabbit' | 'fox' | 'lion' | 'monkey' | 'bear' | 'sloth';
   strengths: string[];
   weaknesses: string[];
   goodColleague: MatchType;
@@ -85,7 +85,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ENTP",
     title: "월급 루팡 꿈나무",
     subTitle: "창의적인 반항아이자 회의장 브레이커",
-    image: "dog",
+    image: "fox",
     description: [
       "번뜩이는 아이디어와 화려한 말빨로 회의의 흐름을 주도하는 아이디어 뱅크입니다.",
       "틀에 박힌 업무 매뉴얼보다 본인만의 지름길을 개척하는 것을 좋아합니다.",
@@ -105,7 +105,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "INFJ",
     title: "심연을 읽는 카운슬러",
     subTitle: "조용히 세상을 바꾸는 따뜻한 완벽주의자",
-    image: "panda",
+    image: "rabbit",
     description: [
       "사람들의 감정을 섬세하게 읽어내며, 회사 내 갈등이 일어나는 것을 미연에 방지합니다.",
       "업무의 본질적 의미와 가치를 중요하게 생각하며, 진정성 있는 관계를 지향합니다.",
@@ -125,7 +125,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "INFP",
     title: "내적 댄스 장인",
     subTitle: "유리멘탈 속 우주를 품은 프로 공상가",
-    image: "cat",
+    image: "rabbit",
     description: [
       "감수성이 풍부하고 독창적인 감각을 지녔으며, 자신의 일에 큰 애정을 가지고 몰입합니다.",
       "부장님의 작은 쓴소리 하나에도 온종일 상상의 나래를 펴며 이불킥을 하기도 합니다.",
@@ -145,7 +145,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ENFJ",
     title: "오피스 핵인싸 보안관",
     subTitle: "부서의 온도를 3도 올리는 긍정의 아이콘",
-    image: "tiger",
+    image: "lion",
     description: [
       "팀원들의 사기를 진작시키고 모두가 조화롭게 일할 수 있도록 돕는 따뜻한 리더십을 발휘합니다.",
       "칭찬과 격려를 아끼지 않으며, 동료들의 잠재력을 끌어내는 데 탁월합니다.",
@@ -205,7 +205,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ISFJ",
     title: "오피스 마더 테레사",
     subTitle: "묵묵히 뒤를 받치는 최고의 서포터",
-    image: "panda",
+    image: "bear",
     description: [
       "남들이 알아주지 않아도 서류 정리, 비품 정리 등 팀의 온갖 궂은일을 꼼꼼하게 처리해 둡니다.",
       "책임감이 매우 강하고 다른 사람의 부탁을 거절하는 것을 몹시 어려워합니다.",
@@ -245,14 +245,14 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ESFJ",
     title: "부서 내 평화주의자",
     subTitle: "리액션 200% 오피스의 마당발 소통왕",
-    image: "tiger",
+    image: "bear",
     description: [
       "동료들의 생일, 경조사를 1순위로 챙기며 사내 분위기를 가족처럼 화기애애하게 만듭니다.",
       "리액션이 풍부해 회의 시간이나 프레젠테이션 때 큰 힘이 되는 활력 넘치는 소통가입니다.",
       "동료와의 연대감을 가장 중요하게 여기며, 팀 프로젝트의 윤활유 역할을 톡톡히 해냅니다."
     ],
     strengths: ["매우 강력한 사교성과 인간관계 친화력", "경청 및 부드러운 피드백", "성실한 협업 능력"],
-    weaknesses: ["팀 내 갈등 상황이 발생하면 크게 불안해함", "남의 시선과 평판에 과도한 신경을 씀"],
+    weaknesses: ["팀 내 갈등 상황이 발생하면 크게 불안해함", "남의 시선과 평판에 과도하게 신경을 씀"],
     goodColleague: { mbti: "ISTJ", title: "걸어다니는 엑셀 파일" },
     goodLeader: { mbti: "ISFP", title: "넵.. 알겠습니다 봇" },
     welfareProduct: {
@@ -285,7 +285,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ISFP",
     title: "넵.. 알겠습니다 봇",
     subTitle: "조용한 평화를 사랑하는 프로 수긍러",
-    image: "cat",
+    image: "sloth",
     description: [
       "팀원들의 의견에 군말 없이 고개를 끄덕이며 묵묵히 자신의 역할을 수행하는 착한 동료입니다.",
       "갈등을 너무 싫어해서 의견 충돌이 날 것 같으면 져주거나 조용히 양보하곤 합니다.",
@@ -305,7 +305,7 @@ export const mbtiResults: Record<string, MBTIResult> = {
     mbti: "ESTP",
     title: "영업왕의 후예",
     subTitle: "문제 해결과 위기 극복의 만능 스포츠맨",
-    image: "dog",
+    image: "monkey",
     description: [
       "직장 생활의 예측 불가능한 돌발 상황 속에서 가장 신나고 활약하는 파이터입니다.",
       "실패를 두려워하지 않고 일단 부딪히며 실전 근육을 키워나가는 타입입니다.",

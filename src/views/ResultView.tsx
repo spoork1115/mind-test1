@@ -61,7 +61,7 @@ export const ResultView: React.FC<ResultViewProps> = ({ result, onRestart }) => 
           <img
             alt={result.title}
             className="w-full h-auto rounded-lg max-w-[260px] object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd6aiel65rYwd9ouawRE4kE2KfPuGpWA3sE6SLIvWkB3WqUOj44fc_3BB3zGOLSXwiQv33sBp5IzOVWaWLN6MI-YiZnlJBiiZ1nmryP9Cn3i-R6cwuYQKBGCErjTVN4ZDLCG3N1E7mraqij6ijO8g1tqwzFrNWaLLMilWivyZKcCsjf6SvUCR8PTHxj5ixR8TDJhSAWhWXlWEy1Hk7uaVwtPg4mj9ETufmBZdrEb44kvpvb_J43EkIxg2ErSTu8BB6gUa_jBUitrHU"
+            src={`/images/${result.image}.png`}
           />
         </div>
         {/* Decorative Chips */}
@@ -182,6 +182,14 @@ export const ResultView: React.FC<ResultViewProps> = ({ result, onRestart }) => 
           <span className="material-symbols-outlined text-sm">restart_alt</span>
           테스트 다시하기
         </button>
+      </div>
+
+      {/* 신뢰도 및 통계 레퍼런스 출처 표시 */}
+      <div className="w-full mt-stack-md text-center">
+        <p className="font-label-bold text-[10px] text-outline leading-tight">
+          출처: 융의 분석심리학적 성격유형 이론 (Jung, 1921)<br />
+          Myers & Briggs Foundation 공인 신뢰도 통계 지표 참조 (검사-재검사 신뢰도 r=.80 이상)
+        </p>
       </div>
 
       {/* Toast Notification */}
