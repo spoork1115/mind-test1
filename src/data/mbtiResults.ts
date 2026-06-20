@@ -36,8 +36,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ENFP", title: "아이디어 폭발기" },
     goodLeader: { mbti: "ENTJ", title: "폭주하는 기관차 리더" },
     welfareProduct: {
-      name: "초밀착 스마트 노이즈 캔슬링 헤드폰",
-      reason: "사무실 소음을 차단하고 완벽한 나만의 집중 공간을 선호하는 당신을 위해!",
+      name: "고성능 사무용 기기 / 인체공학 의자",
+      reason: "업무 효율을 극대화해 주는 장비야말로 이들의 삶의 질을 바꿉니다. 판다처럼 조용히 집중할 때 필요한 노이즈 캔슬링 헤드셋도 베스트입니다.",
       discount: "45% 할인"
     }
   },
@@ -56,8 +56,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "INFJ", title: "심연을 읽는 카운슬러" },
     goodLeader: { mbti: "ESTJ", title: "불도저 커리어맨" },
     welfareProduct: {
-      name: "무소음 인체공학 기계식 키보드",
-      reason: "아이디어 폭발을 타건으로 풀어내지만 주위 동료에게는 조용히 소통하는 당신을 위해!",
+      name: "고급 홈카페 세트 / 게이밍 마우스 및 키보드",
+      reason: "퇴근 후 완벽한 독립 생활을 돕는 취미 용품. 혼자서 정교하게 작업할 수 있는 장비나, 집에서 즐기는 커피 한 잔은 고양이의 안식처를 완성해 줍니다.",
       discount: "30% 할인"
     }
   },
@@ -76,8 +76,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "INFP", title: "내적 댄스 장인" },
     goodLeader: { mbti: "INTJ", title: "고독한 천재 전략가" },
     welfareProduct: {
-      name: "밀크씨슬 프리미엄 피로회복 간 영양제 세트",
-      reason: "성과를 향해 24시간 달리는 불타는 야망 리더의 체력을 지키기 위해!",
+      name: "스마트워치 / 고급 다이어리 및 문구류 / 운동 보충제",
+      reason: "목표 달성치를 눈으로 확인하는 것을 좋아합니다. 호랑이의 넘치는 에너지를 관리할 스마트워치나, 체계적인 일정을 관리할 고퀄리티 다이어리가 제격입니다.",
       discount: "50% 특가"
     }
   },
@@ -96,8 +96,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ISFJ", title: "오피스 마더 테레사" },
     goodLeader: { mbti: "INFJ", title: "심연을 읽는 카운슬러" },
     welfareProduct: {
-      name: "초고속 무선 충전 대형 장패드",
-      reason: "수많은 브라우저 탭과 빠른 멀티태스킹을 즐기는 당신의 유쾌한 책상을 완성해줄 아이템!",
+      name: "신박한 아이디어 상품 / 드론 / DIY 조립 키트",
+      reason: "평범한 건 싫어하는 여우를 위해, 유튜브에서나 보던 신기한 물건이나 자기 손으로 직접 만드는 조립형 취미가 지루함을 날려줍니다.",
       discount: "35% 할인"
     }
   },
@@ -116,8 +116,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ENFP", title: "아이디어 폭발기" },
     goodLeader: { mbti: "INTP", title: "조용한 팩트 폭격기" },
     welfareProduct: {
-      name: "유기농 라벤더 아로마 디퓨저 & 필로우 미스트",
-      reason: "남들의 멘탈까지 케어하느라 지친 당신에게 깊은 휴식과 숙면을 선호하기 때문에!",
+      name: "독서등 / 명상 매트 / 오가닉 침구 / 에세이집",
+      reason: "지친 마음을 다독여줄 수 있는 안식처 같은 상품. 토끼의 예민한 감수성을 케어해 줄 부드러운 침구나 독서 환경을 만들어주는 조명이 좋습니다.",
       discount: "40% 할인"
     }
   },
@@ -136,8 +136,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ENTJ", title: "폭주하는 기관차 리더" },
     goodLeader: { mbti: "ENFJ", title: "오피스 핵인싸 보안관" },
     welfareProduct: {
-      name: "최고급 메모리폼 허리 지지 쿠션",
-      reason: "오랫동안 생각에 잠기며 자리에 앉아 일하는 공상가 당신의 허리 건강을 위해!",
+      name: "독서등 / 명상 매트 / 오가닉 침구 / 에세이집",
+      reason: "지친 마음을 다독여줄 수 있는 안식처 같은 상품. 토끼의 예민한 감수성을 케어해 줄 부드러운 침구나 독서 환경을 만들어주는 조명이 좋습니다.",
       discount: "25% 할인"
     }
   },
@@ -156,8 +156,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "INFP", title: "내적 댄스 장인" },
     goodLeader: { mbti: "ISTJ", title: "걸어다니는 엑셀 파일" },
     welfareProduct: {
-      name: "휴대용 에스프레소 커피 머신 & 머그잔 세트",
-      reason: "팀원들과 따뜻한 커피 한 잔 나누며 응원의 한마디를 건네는 인싸 보안관에게 딱!",
+      name: "디저트 선물 세트 / 팀 간식 이용권 / 향수",
+      reason: "본인도 좋지만, 주위 사람과 나누기 좋은 디저트류가 딱입니다. 팀원들에게 긍정적인 인상을 주는 은은한 향수도 사자 리더에게 어울립니다.",
       discount: "30% 할인"
     }
   },
@@ -176,8 +176,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "INTJ", title: "고독한 천재 전략가" },
     goodLeader: { mbti: "INFJ", title: "심연을 읽는 카운슬러" },
     welfareProduct: {
-      name: "프리미엄 멀티 비타민 & 발포정 패키지",
-      reason: "지치지 않는 텐션과 지치면 급격히 다운되는 에너지를 채워줄 활력 에셋!",
+      name: "캠핑/피크닉 용품 / 최신 IT 가젯 / 예쁜 텀블러",
+      reason: "밖으로 나가거나 사람들 사이에서 주목받을 수 있는 아이템. 남들에게 자랑하고 싶어질 만큼 디자인이 예쁜 신상 가젯이 강아지의 텐션을 올려줍니다.",
       discount: "45% 할인"
     }
   },
@@ -191,13 +191,13 @@ export const mbtiResults: Record<string, MBTIResult> = {
       "보고서 오타나 숫자 틀린 것을 기가 막히게 잡아내며, 기한 엄수를 목숨처럼 여깁니다.",
       "번잡스럽고 계획에 어긋나는 상황을 싫어하며, 차분하게 결과를 입증합니다."
     ],
-    strengths: ["비교 불가의 꼼꼼함과 성실함", "확실한 일정 및 예산 통제", "체계적이고 정돈된 워크플로우"],
+    strengths: ["비교 불가의 꼼꼼함 and 성실함", "확실한 일정 및 예산 통제", "체계적이고 정돈된 워크플로우"],
     weaknesses: ["갑작스러운 변화에 스트레스를 크게 받음", "조금은 경직된 의사소통 스타일"],
     goodColleague: { mbti: "ESFJ", title: "부서 내 평화주의자" },
     goodLeader: { mbti: "ENFJ", title: "오피스 핵인싸 보안관" },
     welfareProduct: {
-      name: "듀얼 스크린 LED 모니터 스탠드 조명",
-      reason: "밤새 엑셀 셀 하나하나 완벽하게 점검하는 당신의 소중한 눈을 완벽하게 보호해줄 아이템!",
+      name: "고성능 사무용 기기 / 인체공학 의자",
+      reason: "업무 효율을 극대화해 주는 장비야말로 이들의 삶의 질을 바꿉니다. 판다처럼 조용히 집중할 때 필요한 노이즈 캔슬링 헤드셋도 베스트입니다.",
       discount: "35% 할인"
     }
   },
@@ -216,8 +216,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ENTP", title: "월급 루팡 꿈나무" },
     goodLeader: { mbti: "ESTJ", title: "불도저 커리어맨" },
     welfareProduct: {
-      name: "무선 목/어깨 지압 온열 마사지기",
-      reason: "남들 뒤치다꺼리하느라 어깨가 잔뜩 뭉친 마더 테레사의 긴장을 사르르 녹여줄 마사지기!",
+      name: "영양제 세트 / 보온 도시락 / 편안한 슬리퍼",
+      reason: "항상 팀원들의 뒤를 챙기느라 정작 본인 건강은 소홀하기 쉬운 곰들을 위한 영양제나, 사무실에서의 작은 안정을 도와줄 꿀템들이 최고입니다.",
       discount: "50% 특가"
     }
   },
@@ -236,8 +236,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ISFP", title: "넵.. 알겠습니다 봇" },
     goodLeader: { mbti: "INTP", title: "조용한 팩트 폭격기" },
     welfareProduct: {
-      name: "시간 분할 뽀모도로 타이머 & 데스크 시계",
-      reason: "초 단위로 시간을 분할하여 최고 효율의 성과를 거두는 스마트한 워커를 위해!",
+      name: "스마트워치 / 고급 다이어리 및 문구류 / 운동 보충제",
+      reason: "목표 달성치를 눈으로 확인하는 것을 좋아합니다. 호랑이의 넘치는 에너지를 관리할 스마트워치나, 체계적인 일정을 관리할 고퀄리티 다이어리가 제격입니다.",
       discount: "20% 할인"
     }
   },
@@ -256,8 +256,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ISTJ", title: "걸어다니는 엑셀 파일" },
     goodLeader: { mbti: "ISFP", title: "넵.. 알겠습니다 봇" },
     welfareProduct: {
-      name: "웰빙 수제 쿠키 & 프리미엄 티 선물세트",
-      reason: "탕비실에서 동료들과 따뜻한 디저트를 나누며 이야기보따리를 풀기 좋아하는 당신을 위한 세트!",
+      name: "영양제 세트 / 보온 도시락 / 편안한 슬리퍼",
+      reason: "항상 팀원들의 뒤를 챙기느라 정작 본인 건강은 소홀하기 쉬운 곰들을 위한 영양제나, 사무실에서의 작은 안정을 도와줄 꿀템들이 최고입니다.",
       discount: "30% 할인"
     }
   },
@@ -276,8 +276,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ESTP", title: "영업왕의 후예" },
     goodLeader: { mbti: "ESFP", title: "탕비실 토크쇼 MC" },
     welfareProduct: {
-      name: "무선 노이즈 캔슬링 오픈형 이어러너",
-      reason: "회사 일은 퇴근과 동시에 깔끔히 오프! 퇴근길 음악에 완벽히 몰입하고 싶은 요정을 위해!",
+      name: "고급 홈카페 세트 / 게이밍 마우스 및 키보드",
+      reason: "퇴근 후 완벽한 독립 생활을 돕는 취미 용품. 혼자서 정교하게 작업할 수 있는 장비나, 집에서 즐기는 커피 한 잔은 고양이의 안식처를 완성해 줍니다.",
       discount: "40% 할인"
     }
   },
@@ -296,8 +296,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ESTJ", title: "불도저 커리어맨" },
     goodLeader: { mbti: "ESFJ", title: "부서 내 평화주의자" },
     welfareProduct: {
-      name: "휴대용 미니 가습기 & 힐링 무드등",
-      reason: "스트레스 없는 나만의 쾌적하고 예쁜 데스크테리어를 연출하고 싶은 당신에게!",
+      name: "빈백(의자) / 꿀잠 안대 / 넷플릭스 이용권 / 릴랙스 차(Tea) 세트",
+      reason: "움직임을 최소화하고 편안함을 극대화할 수 있는 모든 것. 침대와 한 몸이 되기 좋은 모든 아이템이 나무늘보에게는 최고의 복지입니다.",
       discount: "35% 할인"
     }
   },
@@ -309,15 +309,15 @@ export const mbtiResults: Record<string, MBTIResult> = {
     description: [
       "직장 생활의 예측 불가능한 돌발 상황 속에서 가장 신나고 활약하는 파이터입니다.",
       "실패를 두려워하지 않고 일단 부딪히며 실전 근육을 키워나가는 타입입니다.",
-      "넘치는 유머러스함과 순발력으로 클라이언트나 동료들의 마음을 순식간에 사로잡습니다."
+      "넘치는 유머러스함 and 순발력으로 클라이언트나 동료들의 마음을 순식간에 사로잡습니다."
     ],
     strengths: ["최강의 위기 수습 및 대처 능력", "도전적이고 거침없는 실행", "현실 감각과 강한 설득력"],
     weaknesses: ["규칙이나 체계적인 관리를 답답해함", "자칫 충동적인 결정으로 실수가 발생할 수 있음"],
     goodColleague: { mbti: "ISTP", title: "칼퇴근의 수호요정" },
     goodLeader: { mbti: "ENTJ", title: "폭주하는 기관차 리더" },
     welfareProduct: {
-      name: "스마트 피트니스 워치 & 인바디 측정기",
-      reason: "액티브한 성향으로 외근과 운동을 넘나들며 에너지를 발산하는 영업맨의 원픽!",
+      name: "스포츠 용품(테니스, 골프 등) / 즉석카메라 / 블루투스 스피커",
+      reason: "몸으로 부딪히며 즐기는 액티비티나, 그때그때의 순간을 기록하는 즉석카메라. 활동적인 원숭이에게 이보다 좋은 복지는 없습니다.",
       discount: "45% 할인"
     }
   },
@@ -336,8 +336,8 @@ export const mbtiResults: Record<string, MBTIResult> = {
     goodColleague: { mbti: "ISTP", title: "칼퇴근의 수호요정" },
     goodLeader: { mbti: "ESFJ", title: "부서 내 평화주의자" },
     welfareProduct: {
-      name: "고음질 휴대용 블루투스 방수 스피커",
-      reason: "동료들과의 캠핑, 워크샵, 번개 모임 등에서 분위기를 리드할 핵인싸의 필수품!",
+      name: "캠핑/피크닉 용품 / 최신 IT 가젯 / 예쁜 텀블러",
+      reason: "밖으로 나가거나 사람들 사이에서 주목받을 수 있는 아이템. 남들에게 자랑하고 싶어질 만큼 디자인이 예쁜 신상 가젯이 강아지의 텐션을 올려줍니다.",
       discount: "30% 할인"
     }
   }

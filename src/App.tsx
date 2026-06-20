@@ -3,7 +3,8 @@ import IntroView from "./views/IntroView";
 import TestView from "./views/TestView";
 import LoadingView from "./views/LoadingView";
 import ResultView from "./views/ResultView";
-import { questions, type Question } from "./data/questions";
+import { questions } from "./data/questions";
+import type { Question } from "./data/questions";
 import { mbtiResults } from "./data/mbtiResults";
 
 type ViewType = "intro" | "test" | "loading" | "result";

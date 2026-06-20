@@ -154,7 +154,7 @@ export const ResultView: React.FC<ResultViewProps> = ({ result, onRestart }) => 
               {result.welfareProduct.reason}
             </p>
             <a
-              href="https://welfare-mall.example.com"
+              href="https://withus.ezwel.com"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-primary-container text-on-primary-container border-2 border-on-surface py-4 rounded-xl font-display text-lg font-extrabold neo-brutal-shadow neo-brutal-shadow-active flex items-center justify-center gap-2 mt-4 cursor-pointer hover:bg-opacity-95 transition-all text-center"
