@@ -1,0 +1,96 @@
+:root {
+  background-color: #faf9fa;
+  color: #1b1c1d;
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: max(884px, 100dvh);
+}
+
+/* Neo-Brutalism Custom Styles */
+.neo-border {
+  border: 2px solid #161d1f;
+}
+
+.neo-shadow {
+  box-shadow: 4px 4px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-shadow-active:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.shadow-brutal {
+  box-shadow: 4px 4px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.active-press:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-brutal-shadow {
+  box-shadow: 4px 4px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-brutal-shadow-sm {
+  box-shadow: 2px 2px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-brutal-shadow-active:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.neo-brutal-shadow-reverse {
+  box-shadow: 0px -4px 0px 0px rgba(22, 29, 31, 1);
+}
+
+.bg-pattern {
+  background-image: radial-gradient(#dde4e6 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* Icons */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Animations */
+@keyframes mug-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(5deg);
+  }
+}
+
+.mug-animation {
+  animation: mug-float 2s ease-in-out infinite;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
